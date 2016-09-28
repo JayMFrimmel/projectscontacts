@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>MyPortfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -21,10 +21,27 @@
 
 	<div id="main-container" class="container">
 		<section class="main-section"></section>
-	</div>
 
 	<h1>Contact</h1>
 
+	<form id="contact-form">
+		<ul>
+			<li>
+				<label for="name">Your Name</label>
+				<input type=text id ="name" name="name" placeholder="Daisy Smith" required="required">
+			</li>
+			<li>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="example@email.com" required="required">
+			</li>
+			<li>
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required="required"></textarea>>
+			</li>
+		</ul>
+		<input type="submit">
+	</form>
+	</div>
 
 	<section class="sidebar">
 		<div id="connect">
@@ -34,9 +51,14 @@
 			<img src="C:\Users\jayfr\Desktop\projectscontacts\assets\images\linkdin.png" height="60" width="60">
 			<img src="C:\Users\jayfr\Desktop\projectscontacts\assets\images\stackoverflow.png" width="60" height="60">
 			
-		</div>
-		
+		</div>	
 	</section>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Jay M. Frimmel
+		</div>
+	</footer>
 
 </body>
 </html>
